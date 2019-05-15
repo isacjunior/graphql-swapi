@@ -4,7 +4,7 @@ Este repositório faz parte do artigo publicado em meu medium https://medium.com
 
 ### Descrição
 
-É um simples middleware em GraphQL que utiliza os recursos da api SWAPI https://swapi.co/ como fonte de dados. A aplicação foi feita utilizando Typescript e algums tools de GraphQL para facilitar a leitura e manutenção da aplicação.
+É um simples middleware em GraphQL que utiliza os recursos da api SWAPI https://swapi.co/ como fonte de dados. A aplicação foi feita utilizando Typescript e algumas ferramentas do GraphQL para facilitar a leitura e a manutenção da aplicação.
 
 ### Estrutura
 ```
