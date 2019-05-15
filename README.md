@@ -7,7 +7,7 @@ Este repositório faz parte do artigo publicado em meu medium https://medium.com
 É um simples middleware em GraphQL que utiliza os recursos da api SWAPI https://swapi.co/ como fonte de dados. A aplicação foi feita utilizando Typescript e algums tools de GraphQL para facilitar a leitura e manutenção da aplicação.
 
 ### Estrutura
-
+```
 ├── src
 │   ├── loaders           # Responsável por tratar os dados recebidos dos serviços caso necessário
 │   ├── resolvers         # Estes são os responsáveis por solucionar as informações solicitadas
@@ -16,6 +16,7 @@ Este repositório faz parte do artigo publicado em meu medium https://medium.com
 ├── index.ts              # Contém as configurações do nosso web framework e do middleware graphql
 ├── schema.ts             # Schema contendo a junção dos types e resolvers
 └── typeDefs.ts           # Pra facilitar a escrita de tipos em .graphql
+```
 
 ### Scripts
 
