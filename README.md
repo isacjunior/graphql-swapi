@@ -10,7 +10,7 @@ Este repositório faz parte do artigo publicado em meu medium https://medium.com
 ```
 ├── src
 │   ├── loaders           # Responsável por tratar os dados recebidos dos serviços caso necessário
-│   ├── resolvers         # Estes são os responsáveis por solucionar as informações solicitadas
+│   ├── resolvers         # Estes são os responsáveis por resolver e coletar as informações no loader
 │   ├── services          # Parte responsável por integrar com serviços externos, ex: api's
 │   ├── types             # Armazena os tipos do graphql e do typescript  
 ├── index.ts              # Contém as configurações do nosso web framework e do middleware graphql
