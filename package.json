@@ -11,7 +11,8 @@
     "copy:types": "cpx 'src/types/*.graphql' build/types",
     "clean:build": "rm -rf build",
     "build": "yarn clean:build && tsc && yarn copy:types",
-    "start": "node build/index.js"
+    "start": "node build/index.js",
+    "eslint:check": "eslint src --ext .ts"
   },
   "devDependencies": {
     "@types/express": "^4.16.1",
