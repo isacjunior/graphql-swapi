@@ -41,4 +41,4 @@ yarn dev
 ```
 
 Abra o GraphiQL
-https://localhost:3000/graphql
+http://localhost:3000/graphql
