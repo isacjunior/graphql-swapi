@@ -39,3 +39,6 @@ Inicie o projeto
 ```shell
 yarn dev
 ```
+
+Abra o GraphiQL
+https://localhost:3000/graphql
