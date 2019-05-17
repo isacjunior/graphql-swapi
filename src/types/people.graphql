@@ -1,3 +1,6 @@
+"""
+Personagens da saga Star Wars
+"""
 type People {
   name: String,
   height: String,
@@ -17,7 +20,16 @@ type People {
   url: String
 }
 
+"""
+Consultas disponíveis na API SWAPI
+"""
 type Query {
+  """
+  Realiza a consulta de um personagem com um identificador único
+  """
   people(id: ID!): People,
+  """
+  Realiza a consulta de todos os personagens
+  """
   peoples: [People]
 }
