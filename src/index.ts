@@ -4,9 +4,13 @@ import schema from './schema'
 
 const application = express()
 
-application.use('/graphql', graphqlHTTP({
+application.use('/', graphqlHTTP({
   schema,
   graphiql: true,
 }))
 
-application.listen(3000)
+const port = process.env.PORT || 3000
+
+application.listen(port, (): void => {
+  console.log(`🚀 Server ready at ${port}`)
+})
