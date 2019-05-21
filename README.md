@@ -2,7 +2,7 @@
 
 Este repositório faz parte do artigo publicado em meu medium https://medium.com/@isacjunior
 
-## Demo Heroku
+## GraphiQL - Heroku
 
 https://graphql-swapi-ts.herokuapp.com/
 
